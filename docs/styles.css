@@ -118,6 +118,22 @@ section {
     flex-shrink: 0;
 }
 
+.github-btn {
+    background: #6e5494;
+}
+
+.github-btn:hover {
+    background: #5a4278;
+}
+
+.linkedin-btn {
+    background: #0077b5;
+}
+
+.linkedin-btn:hover {
+    background: #005885;
+}
+
 .social-btn:hover {
     background: rgba(255, 255, 255, 0.3);
     transform: scale(1.05);
