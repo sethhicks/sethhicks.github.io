@@ -1,1 +1,0 @@
-# sethhicks.github.io
