@@ -102,6 +102,9 @@ section {
 }
 
 .social-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     padding: 12px 30px;
     background: rgba(255, 255, 255, 0.2);
     color: #ffffff;
@@ -109,6 +112,10 @@ section {
     border-radius: 25px;
     transition: background 0.3s ease, transform 0.3s ease;
     font-weight: 500;
+}
+
+.social-btn svg {
+    flex-shrink: 0;
 }
 
 .social-btn:hover {
