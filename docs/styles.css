@@ -94,6 +94,22 @@ section {
     text-align: center;
 }
 
+.email-text {
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.email-link {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.5);
+    transition: border-color 0.3s ease;
+}
+
+.email-link:hover {
+    border-bottom-color: #ffffff;
+}
+
 .social-links {
     display: flex;
     justify-content: center;
