@@ -118,11 +118,8 @@ section {
 }
 
 .social-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
+    display: inline-block;
     padding: 12px 30px;
-    background: rgba(255, 255, 255, 0.2);
     color: #ffffff;
     text-decoration: none;
     border-radius: 25px;
@@ -130,8 +127,8 @@ section {
     font-weight: 500;
 }
 
-.social-btn svg {
-    flex-shrink: 0;
+.social-btn:hover {
+    transform: scale(1.05);
 }
 
 .github-btn {
